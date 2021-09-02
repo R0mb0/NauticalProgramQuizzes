@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DefinitiveNauticalProject</id>
+    <version>1.0.0</version>
+    <authors>Rombo</authors>
+    <description>A simple App to get prectise of nautical quizzes</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Rombo\Desktop\Programma nautica definitivo\DefinitiveNauticalProject\DefinitiveNauticalProject\bin\Debug\netcoreapp3.1\DefinitiveNauticalProject.runtimeconfig.json" target="lib\netcoreapp3.1\DefinitiveNauticalProject.runtimeconfig.json" />
+    <file src="C:\Users\Rombo\Desktop\Programma nautica definitivo\DefinitiveNauticalProject\DefinitiveNauticalProject\bin\Debug\netcoreapp3.1\DefinitiveNauticalProject.dll" target="lib\netcoreapp3.1\DefinitiveNauticalProject.dll" />
+    <file src="C:\Users\Rombo\Desktop\Programma nautica definitivo\DefinitiveNauticalProject\DefinitiveNauticalProject\RomboQuiz.ico" target="RomboQuiz.ico" />
+  </files>
+</package>
