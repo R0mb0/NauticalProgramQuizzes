@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\DefinitiveNauticalProject\\DefinitiveNauticalProject\\DefinitiveNauticalProject.csproj": {}
+    "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\NauticalProgramQuizzes\\DefinitiveNauticalProject\\DefinitiveNauticalProject\\DefinitiveNauticalProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\DefinitiveNauticalProject\\DefinitiveNauticalProject\\DefinitiveNauticalProject.csproj": {
+    "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\NauticalProgramQuizzes\\DefinitiveNauticalProject\\DefinitiveNauticalProject\\DefinitiveNauticalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\DefinitiveNauticalProject\\DefinitiveNauticalProject\\DefinitiveNauticalProject.csproj",
+        "projectUniqueName": "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\NauticalProgramQuizzes\\DefinitiveNauticalProject\\DefinitiveNauticalProject\\DefinitiveNauticalProject.csproj",
         "projectName": "DefinitiveNauticalProject",
-        "projectPath": "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\DefinitiveNauticalProject\\DefinitiveNauticalProject\\DefinitiveNauticalProject.csproj",
+        "projectPath": "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\NauticalProgramQuizzes\\DefinitiveNauticalProject\\DefinitiveNauticalProject\\DefinitiveNauticalProject.csproj",
         "packagesPath": "C:\\Users\\Rombo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\DefinitiveNauticalProject\\DefinitiveNauticalProject\\obj\\",
+        "outputPath": "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\NauticalProgramQuizzes\\DefinitiveNauticalProject\\DefinitiveNauticalProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

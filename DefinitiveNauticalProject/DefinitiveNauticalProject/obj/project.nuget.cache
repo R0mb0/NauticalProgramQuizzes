@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R8fYIRUdnyce/+ySs0pliUL5KAVqNJoQ+Vqqgn1MDxAWtkVy3SjVN28kn5hoh18xcB3Ad0PKRt1nMb+i11NOEQ==",
+  "dgSpecHash": "HbCAJLyqOOhrFfMordmfClYb+nRlB26ZRnaw0M92F/NFeTU9LLDUAiVuHGRRwWzJuXepct4fGUb9Mh1I1ag1Yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\DefinitiveNauticalProject\\DefinitiveNauticalProject\\DefinitiveNauticalProject.csproj",
+  "projectFilePath": "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\NauticalProgramQuizzes\\DefinitiveNauticalProject\\DefinitiveNauticalProject\\DefinitiveNauticalProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rombo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
