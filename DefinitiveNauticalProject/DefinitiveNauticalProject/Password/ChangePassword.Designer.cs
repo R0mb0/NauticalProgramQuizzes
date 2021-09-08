@@ -123,7 +123,7 @@ namespace DefinitiveNauticalProject.Password
             this.Icon = global::DefinitiveNauticalProject.Properties.Resources.RomboQuiz;
             this.Name = "ChangePassword";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "ChangePassword";
+            this.Text = "Cambia_Password";
             this.ResumeLayout(false);
             this.PerformLayout();
 

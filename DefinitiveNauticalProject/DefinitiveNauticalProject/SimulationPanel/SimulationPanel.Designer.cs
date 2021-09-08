@@ -69,9 +69,9 @@
             this.titleLabel.ForeColor = System.Drawing.Color.Maroon;
             this.titleLabel.Location = new System.Drawing.Point(502, 27);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(701, 45);
+            this.titleLabel.Size = new System.Drawing.Size(601, 45);
             this.titleLabel.TabIndex = 0;
-            this.titleLabel.Text = "SIMULAZIONE QUIZ PATENTE NAUTICA";
+            this.titleLabel.Text = "SIMULAZIONE COMPITO D`ESAME";
             // 
             // questionBox
             // 
@@ -398,7 +398,7 @@
             this.Icon = global::DefinitiveNauticalProject.Properties.Resources.RomboQuiz;
             this.Name = "SimulationPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Simulazione Quiz Patente Nautica";
+            this.Text = "Simulazione_Compito_Esame";
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).EndInit();
             this.menuPanel.ResumeLayout(false);
             this.menuPanel.PerformLayout();

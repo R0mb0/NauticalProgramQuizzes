@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuizzesPanel));
             this.titleLabel = new System.Windows.Forms.Label();
             this.questionBox = new System.Windows.Forms.TextBox();
             this.answerButton1 = new System.Windows.Forms.Button();
@@ -120,9 +119,9 @@
             this.titleLabel.ForeColor = System.Drawing.Color.Maroon;
             this.titleLabel.Location = new System.Drawing.Point(595, 27);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(522, 45);
+            this.titleLabel.Size = new System.Drawing.Size(542, 45);
             this.titleLabel.TabIndex = 0;
-            this.titleLabel.Text = "DOMANDE PATENTE NAUTICA";
+            this.titleLabel.Text = "ESERCITAZINE QUIZ D`ESAME";
             // 
             // questionBox
             // 
@@ -841,7 +840,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "QuizzesPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Domande Patente Nautica";
+            this.Text = "Esercitazione_Quiz_Esame";
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).EndInit();
             this.menuPanel.ResumeLayout(false);
             this.menuPanel.PerformLayout();
