@@ -17,8 +17,8 @@
     </frameworkReferences>
   </metadata>
   <files>
-    <file src="C:\Users\Rombo\Desktop\Programma nautica definitivo\DefinitiveNauticalProject\DefinitiveNauticalProject\bin\Debug\netcoreapp3.1\DefinitiveNauticalProject.runtimeconfig.json" target="lib\netcoreapp3.1\DefinitiveNauticalProject.runtimeconfig.json" />
-    <file src="C:\Users\Rombo\Desktop\Programma nautica definitivo\DefinitiveNauticalProject\DefinitiveNauticalProject\bin\Debug\netcoreapp3.1\DefinitiveNauticalProject.dll" target="lib\netcoreapp3.1\DefinitiveNauticalProject.dll" />
-    <file src="C:\Users\Rombo\Desktop\Programma nautica definitivo\DefinitiveNauticalProject\DefinitiveNauticalProject\RomboQuiz.ico" target="RomboQuiz.ico" />
+    <file src="C:\Users\Rombo\Desktop\Programma nautica definitivo\NauticalProgramQuizzes\DefinitiveNauticalProject\DefinitiveNauticalProject\bin\Debug\netcoreapp3.1\DefinitiveNauticalProject.runtimeconfig.json" target="lib\netcoreapp3.1\DefinitiveNauticalProject.runtimeconfig.json" />
+    <file src="C:\Users\Rombo\Desktop\Programma nautica definitivo\NauticalProgramQuizzes\DefinitiveNauticalProject\DefinitiveNauticalProject\bin\Debug\netcoreapp3.1\DefinitiveNauticalProject.dll" target="lib\netcoreapp3.1\DefinitiveNauticalProject.dll" />
+    <file src="C:\Users\Rombo\Desktop\Programma nautica definitivo\NauticalProgramQuizzes\DefinitiveNauticalProject\DefinitiveNauticalProject\RomboQuiz.ico" target="RomboQuiz.ico" />
   </files>
 </package>
