@@ -12,6 +12,7 @@ namespace DefinitiveNauticalProject.Password
 {
     public partial class ChangePassword : Form
     {
+        /*Builder*/
         public ChangePassword()
         {
             InitializeComponent();
@@ -21,16 +22,20 @@ namespace DefinitiveNauticalProject.Password
         {
             String json;
             string password;
+            /*Get old password*/
             json = File.ReadAllText("Password.pw");
             password = JsonConvert.DeserializeObject<string>(json);
 
+            /*Paasssword control*/
             if(this.newPasswordTextBox.Text != this.ConfirmPasswordTextBox.Text)
             {
                 MessageBox.Show("La Password Di Conferma Non Corrisponde");
+                return;
             }
 
             if (this.oldPasswordTextBox.Text == Crypter.Decrypt(password))
             {
+                /*Change password*/
                 password = Crypter.Encrypt(this.newPasswordTextBox.Text);
                 json = JsonConvert.SerializeObject(password);
                 System.IO.File.WriteAllText("Password.pw", json);
@@ -38,9 +43,11 @@ namespace DefinitiveNauticalProject.Password
                 json = File.ReadAllText("Password.pw");
                 password = JsonConvert.DeserializeObject<string>(json);
 
+                /*reset the panel*/
                 this.newPasswordTextBox.Clear();
                 this.oldPasswordTextBox.Clear();
 
+                /*control the new saved password*/
                 if (this.newPasswordTextBox.Text == Crypter.Decrypt(password))
                 {
                     MessageBox.Show("Password Cambiata Con Successo");
@@ -52,6 +59,7 @@ namespace DefinitiveNauticalProject.Password
             else
             {
                 MessageBox.Show("La Vecchia Password è Sbagliata");
+                return;
             }
         }
     }

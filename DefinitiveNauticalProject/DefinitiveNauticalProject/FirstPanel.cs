@@ -8,18 +8,27 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DefinitiveNauticalProject.Password;
+using DefinitiveNauticalProject.ProgramProtection;
 
 namespace DefinitiveNauticalProject
 {
     public partial class FirstPanel : Form
     {
+        /*private Fields*/
         private SimulationPanel simulation;
         private QuizzesPanel quizzes;
         private PasswordPanel password;
+        private ProtectionPanel protection;
 
+        /*Builder*/
         public FirstPanel()
         {
             InitializeComponent();
+            /*start protecion panel*/
+            this.protection = new ProtectionPanel();
+            this.protection.ShowDialog();
+
+            /*Prepaare other panel*/
             this.simulation = new SimulationPanel();
             this.quizzes = new QuizzesPanel();
             this.password = new PasswordPanel();

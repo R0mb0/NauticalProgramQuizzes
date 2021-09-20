@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WwAZ59KgtyhzY07NCmCfNvslMePC3T1oqHwIHdkbpCPswuYIRw0WUPQY0iCoEjTnbhQeQi4yLNba3ICHcQmoRA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rombo\\Desktop\\Programma nautica definitivo\\NauticalProgramQuizzes\\CodeGenerator\\CodeGenerator\\CodeGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rombo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

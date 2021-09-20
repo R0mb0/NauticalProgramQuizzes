@@ -13,9 +13,11 @@ namespace DefinitiveNauticalProject.Password
 {
     public partial class PasswordPanel : Form
     {
+        /*Private fields*/
         private ChangePassword change;
         private QuestionsEditor editor;
 
+        /*Builder*/
         public PasswordPanel()
         {
             InitializeComponent();
@@ -23,8 +25,10 @@ namespace DefinitiveNauticalProject.Password
             this.editor = new QuestionsEditor();
         }
 
+        /*Button to start teh editori panel*/
         private void editorButton_Click(object sender, EventArgs e)
         {
+            /*Password control*/
             if (this.passwordTextBox.Text.Length <= 0)
             {
                 MessageBox.Show("Password non valida");
@@ -40,14 +44,16 @@ namespace DefinitiveNauticalProject.Password
                 {
                     editor.ShowDialog();
                     this.passwordTextBox.Clear();
+                    this.Close();
+                    return;
                 }
-                else
-                {
+                
                     MessageBox.Show("Password Sbagliata");
-                }
+                
             }
         }
 
+        /*Button to change the password*/
         private void passwordButton_Click(object sender, EventArgs e)
         {
             this.change.ShowDialog();

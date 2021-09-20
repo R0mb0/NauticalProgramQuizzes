@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
-using DefinitiveNauticalProject.LoadingForm;
+using DefinitiveNauticalProject.LoadingPanel;
 
 namespace DefinitiveNauticalProject.Questions
 {

@@ -1,4 +1,4 @@
-﻿namespace DefinitiveNauticalProject.LoadingForm
+﻿namespace DefinitiveNauticalProject.LoadingPanel
 {
     partial class Loading
     {

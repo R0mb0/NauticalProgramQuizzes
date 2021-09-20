@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace DefinitiveNauticalProject.LoadingForm
+namespace DefinitiveNauticalProject.LoadingPanel
 {
     public partial class Loading : Form
     {

@@ -7,13 +7,16 @@
     <Compile Update="FirstPanel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="LoadingForm\Loading.cs">
+    <Compile Update="LoadingPanel\Loading.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Password\ChangePassword.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Password\PasswordPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProgramProtection\ProtectionPanel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="QuizPanel\QuizzesPanel.cs">
