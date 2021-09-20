@@ -1,5 +1,18 @@
 # Programma per esercitarsi sui quiz della patente nautica.  
 
+## Attivazione del programma.  
+
+#### Lato utente.
+-> Una volta scaricato ed avviato il programma, ci si trova nella schermata di attivazione che si compone di due riquadri ("Nome utente" e "Codice attivazione") ed un pulsante ("Attiva").  
+-> Comunicare al fornitore del programma il nome utente riportato dalla schermata e attendere il codice di attivazione.  
+-> Una volta ottenuto il codice di attivaazione questo va copiato nel riquadro "Codice attivazione".  
+-> Premere quindi il pulsante "Attiva" per attivare il programma.  
+
+#### Lato Fornitore.
+-> Aprire il programma "Code generator". Il pannello del programma si compone di due riquadri ("Nome utente" e "Codice attivazione") ed un pulsante ("Genera codice di attivazione").  
+-> Inserire nel riquadro "Nome Utente" il nome passato dal cliente.
+-> Una volta inserito il nome utente premere il pulsante "Genera codice di attivazione" per generare il codice da comunicare al cliente.  
+
 ## Composizione del programma.  
 
 #### Pannello principale.  
@@ -21,6 +34,8 @@ Nel livello superiore di colore rosa chiaro troviamo un menù a tendina che perm
 Questa finestra come le precedenti si compone di due livelli, nel livello inferiore è possibile inserire e modificare le domande (riquadro verde chiaro) e le risposte (riquadri azzurrini). Trasportando un'immagine sul riquadro nero è possibile inserire un'immagine alla domanda. Sotto questo riquadro sono presenti due pulsanti, "Inserisci/salva Quiz" serve per salvare il quiz, il pulsante "Salva Database" serve per salvare fisicamnte sulla memoria del pc le modifiche fatte alle domande.
 Nel livello superiore (di colore rosa chiaro) è possibile scegliere la categoria di quiz che si vuole modificare ("Entro 12 Miglia" o "Oltre 12 Miglia"), si scorre tra le domande, si inserisce la risposta giusta e si cancella l'immagine qualora fosse sbagliata.  
 In alto troviamo il riquadro "Stato del quiz" che si colora di verde se la domanda è presente all'interno della memoria, si colora di rosso se la domanda non è ancora stata salvata. Sotto sono presenti due tasti ("Domanda precedente" e "Domanda successiva") che permettono di navigare tra le domande. Il riquadro "risposta giusta" permette di inserire/modificare (con un valore da 1 a 3) il numero di risposta giusta. A fianco di esso verso destra è presente il pulsante che permette di cancellare l'immagine ("Cancella immagine"), proseguendo verso destra troviamo l'indice della domanda (campo "Domande") nel quale è possibile vedere rispetto al totale l'indice della domanda corrente. Nel secondo riquadro (quello più basso) definito "Domande" è possibile inserire l'indice della domanda che si vuole modificare, e tramite il pulsante posto a sinsitra del suddetto ("Cerca domanda") è possibile raggiungere la domanda inserita nell'indice digitato. Con pulsanti "Entro 12 miglia" e "Oltre 12 miglia" è possibile selezionar la categoria di quiz del quale si vogliono modificare le domande.  
+
+## Come usare il programma
 
 #### Come fare una simulazione della prova d'esame.  
 Una volta aver avviato la finestra "Domande patente nautica".  
@@ -57,7 +72,9 @@ Dopo aver premuto il pulsante "Modifica i quiz" sul pannello principale.
 -> Per aggiungere una immagine basta trascinare l'immagine che si desidera inserire nel riquadro di colore nero. Per eliminare una immagine inserita basta premere il pulsante "Cancella immagine".  
 -> Una volta terminate le modifiche, oppure dopo avere inserito una nuovo quiz, premere il pusante "Inserisci/Salva quiz" per salvare il lavoro fatto all'interno del database. -> Per rendere le modifiche permanenti è sufficiente premere il pulsante "Salva database", in questo modo verrà scritto/aggiornato un file all'interno della cartella nella quale è presente il programma.  
 
-#### Avvisi:  
+## Avvisi.
+
+#### Informazioni riguardo i file del programma.
 Nel programma sono presenti tre tipi di database: le domande "Entro 12 miglia", "Oltre 12 miglia" e un piccolo database che contiene delle domande di prova.
 Questi tre database sono salvati localmente nel computer tramite 3 file ".txt" e rispettivamnete sono "Within 12 miles" per le domande entro le 12 miglia, "beyond 12 miles" per le domande oltre le 12 miglia e per finire "Test" che contiente delle domande di prova. Se alla occorrenza uno dei due principali database non è presente il programma caricherà una nuova istanza dello stesso, che verrà poi scritta salvata fisicamente dopo aver premuto il pulsante "Salva Database".  
 Se un database non possiede sufficienti domande per avviare una prova di simulazione, al posto del corrispettivo verrà caricato il database di Test, in modo che comunque si possa provare il programma.  
