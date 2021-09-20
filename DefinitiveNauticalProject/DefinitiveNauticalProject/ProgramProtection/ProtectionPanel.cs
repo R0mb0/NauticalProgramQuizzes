@@ -18,12 +18,13 @@ namespace DefinitiveNauticalProject.ProgramProtection
         private String json;
         private String license;
         private String user;
+        private bool verify;
 
         /*Builder*/
         public ProtectionPanel()
         {
             InitializeComponent();
-
+            this.verify = false;
             this.activationButton.Enabled = false;
             this.user = Environment.UserName;
 
@@ -35,6 +36,7 @@ namespace DefinitiveNauticalProject.ProgramProtection
                 if (this.user == Crypter.Decrypt(this.license))
                 {
                     /*Loaded an anonymouse event in way to close the form into the builder*/
+                    this.verify = true;
                     Load += (s, e) => Close();
                     return;
                 }
@@ -51,6 +53,7 @@ namespace DefinitiveNauticalProject.ProgramProtection
             {
                 this.json = JsonConvert.SerializeObject(this.codeTextBox.Text);
                 System.IO.File.WriteAllText("License.pw", json);
+                this.verify = true;
                 MessageBox.Show("programma attivato.");
                 this.Close();
 
@@ -64,7 +67,11 @@ namespace DefinitiveNauticalProject.ProgramProtection
         /*Close the entire program in case of no license*/
         private void ProtectionPanel_FormClosed(object sender, FormClosedEventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            if (!verify)
+            {
+                System.Windows.Forms.Application.Exit();
+            }
+            
         }
     }
 }

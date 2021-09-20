@@ -23,8 +23,17 @@ namespace DefinitiveNauticalProject.Password
             String json;
             string password;
             /*Get old password*/
-            json = File.ReadAllText("Password.pw");
-            password = JsonConvert.DeserializeObject<string>(json);
+            if (System.IO.File.Exists("Password.pw"))
+            {
+                json = File.ReadAllText("Password.pw");
+                password = JsonConvert.DeserializeObject<string>(json);
+            }
+            else
+            {
+                MessageBox.Show("Non trovaato il file password, accesso negato.");
+                return;
+            }
+            
 
             /*Paasssword control*/
             if(this.newPasswordTextBox.Text != this.ConfirmPasswordTextBox.Text)

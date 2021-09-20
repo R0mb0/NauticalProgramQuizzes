@@ -49,15 +49,25 @@ namespace DefinitiveNauticalProject.Password
                 }
                 
                     MessageBox.Show("Password Sbagliata");
+                return;
                 
             }
+
+            MessageBox.Show("Non trovaato il file password, accesso negato.");
         }
 
         /*Button to change the password*/
         private void passwordButton_Click(object sender, EventArgs e)
         {
-            this.change.ShowDialog();
-            
+            if (System.IO.File.Exists("Password.pw"))
+            {
+                this.change.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Non trovaato il file password, accesso negato.");
+            }
+
         }
     }
 }
