@@ -43,7 +43,7 @@ namespace DefinitiveNauticalProject.ProgramProtection
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.ReadOnly = true;
             this.nameTextBox.Size = new System.Drawing.Size(475, 33);
-            this.nameTextBox.TabIndex = 0;
+            this.nameTextBox.TabIndex = 1;
             // 
             // titleLabel
             // 
@@ -53,7 +53,7 @@ namespace DefinitiveNauticalProject.ProgramProtection
             this.titleLabel.Location = new System.Drawing.Point(94, 9);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(475, 45);
-            this.titleLabel.TabIndex = 1;
+            this.titleLabel.TabIndex = 0;
             this.titleLabel.Text = "ATTIVAZIONE PROGRAMMA";
             // 
             // nameLabel
@@ -63,7 +63,7 @@ namespace DefinitiveNauticalProject.ProgramProtection
             this.nameLabel.Location = new System.Drawing.Point(265, 76);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(158, 30);
-            this.nameLabel.TabIndex = 2;
+            this.nameLabel.TabIndex = 0;
             this.nameLabel.Text = "Nome Utente:";
             // 
             // codeLabel
@@ -73,7 +73,7 @@ namespace DefinitiveNauticalProject.ProgramProtection
             this.codeLabel.Location = new System.Drawing.Point(238, 160);
             this.codeLabel.Name = "codeLabel";
             this.codeLabel.Size = new System.Drawing.Size(212, 30);
-            this.codeLabel.TabIndex = 4;
+            this.codeLabel.TabIndex = 0;
             this.codeLabel.Text = "Codice Attivazione:";
             // 
             // codeTextBox
@@ -81,14 +81,14 @@ namespace DefinitiveNauticalProject.ProgramProtection
             this.codeTextBox.Location = new System.Drawing.Point(94, 193);
             this.codeTextBox.Name = "codeTextBox";
             this.codeTextBox.Size = new System.Drawing.Size(475, 33);
-            this.codeTextBox.TabIndex = 5;
+            this.codeTextBox.TabIndex = 2;
             // 
             // activationButton
             // 
             this.activationButton.Location = new System.Drawing.Point(265, 253);
             this.activationButton.Name = "activationButton";
             this.activationButton.Size = new System.Drawing.Size(158, 80);
-            this.activationButton.TabIndex = 6;
+            this.activationButton.TabIndex = 3;
             this.activationButton.Text = "ATTIVA";
             this.activationButton.UseVisualStyleBackColor = true;
             this.activationButton.Click += new System.EventHandler(this.activationButton_Click);
@@ -110,6 +110,7 @@ namespace DefinitiveNauticalProject.ProgramProtection
             this.Name = "ProtectionPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "ProtectionPanel";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ProtectionPanel_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -60,6 +60,11 @@ namespace DefinitiveNauticalProject.ProgramProtection
                 MessageBox.Show("Codice sbagliato");
             }
         }
-
+        
+        /*Close the entire program in case of no license*/
+        private void ProtectionPanel_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
     }
 }

@@ -52,9 +52,9 @@ namespace CodeGenerator.Imported
             this.titleLabel.ForeColor = System.Drawing.Color.DarkRed;
             this.titleLabel.Location = new System.Drawing.Point(12, 9);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(658, 45);
+            this.titleLabel.Size = new System.Drawing.Size(655, 45);
             this.titleLabel.TabIndex = 1;
-            this.titleLabel.Text = "GENERATORE CODICE D\'ATTIVAZIONE";
+            this.titleLabel.Text = "GENERATORE CODICI D\'ATTIVAZIONE";
             // 
             // nameLabel
             // 
@@ -90,7 +90,7 @@ namespace CodeGenerator.Imported
             this.generatorButton.Name = "generatorButton";
             this.generatorButton.Size = new System.Drawing.Size(304, 80);
             this.generatorButton.TabIndex = 6;
-            this.generatorButton.Text = "GENERA CODICE ATTIVAZIONE";
+            this.generatorButton.Text = "GENERA CODICE D\'ATTIVAZIONE";
             this.generatorButton.UseVisualStyleBackColor = true;
             this.generatorButton.Click += new System.EventHandler(this.generatorButton_Click);
             // 
