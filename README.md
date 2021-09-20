@@ -35,7 +35,7 @@ Questa finestra come le precedenti si compone di due livelli, nel livello inferi
 Nel livello superiore (di colore rosa chiaro) è possibile scegliere la categoria di quiz che si vuole modificare ("Entro 12 Miglia" o "Oltre 12 Miglia"), si scorre tra le domande, si inserisce la risposta giusta e si cancella l'immagine qualora fosse sbagliata.  
 In alto troviamo il riquadro "Stato del quiz" che si colora di verde se la domanda è presente all'interno della memoria, si colora di rosso se la domanda non è ancora stata salvata. Sotto sono presenti due tasti ("Domanda precedente" e "Domanda successiva") che permettono di navigare tra le domande. Il riquadro "risposta giusta" permette di inserire/modificare (con un valore da 1 a 3) il numero di risposta giusta. A fianco di esso verso destra è presente il pulsante che permette di cancellare l'immagine ("Cancella immagine"), proseguendo verso destra troviamo l'indice della domanda (campo "Domande") nel quale è possibile vedere rispetto al totale l'indice della domanda corrente. Nel secondo riquadro (quello più basso) definito "Domande" è possibile inserire l'indice della domanda che si vuole modificare, e tramite il pulsante posto a sinsitra del suddetto ("Cerca domanda") è possibile raggiungere la domanda inserita nell'indice digitato. Con pulsanti "Entro 12 miglia" e "Oltre 12 miglia" è possibile selezionar la categoria di quiz del quale si vogliono modificare le domande.  
 
-## Come usare il programma
+## Come usare il programma.
 
 #### Come fare una simulazione della prova d'esame.  
 Una volta aver avviato la finestra "Domande patente nautica".  
