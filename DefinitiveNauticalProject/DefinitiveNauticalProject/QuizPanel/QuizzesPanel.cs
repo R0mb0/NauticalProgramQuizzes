@@ -50,6 +50,9 @@ namespace DefinitiveNauticalProject
 
         private void InsertQuestions(bool limited, int start, int stop)
         {
+            /*Format the list to prevent the over adding*/
+            this.questionList.Clear();
+
             if (!QuestionInserter.Inserter(this.questionList, limited, start, stop))
             {
                 MessageBox.Show("Errore nel database");

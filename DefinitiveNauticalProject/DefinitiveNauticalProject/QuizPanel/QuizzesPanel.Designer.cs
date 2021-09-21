@@ -535,7 +535,7 @@
             // 
             this.normeEFanaliToolStripMenuItem.Name = "normeEFanaliToolStripMenuItem";
             this.normeEFanaliToolStripMenuItem.Size = new System.Drawing.Size(470, 34);
-            this.normeEFanaliToolStripMenuItem.Text = "Norme e fanali- 184";
+            this.normeEFanaliToolStripMenuItem.Text = "Norme e fanali- 175";
             this.normeEFanaliToolStripMenuItem.Click += new System.EventHandler(this.normeEFanaliToolStripMenuItem_Click);
             // 
             // navigazioneFluvialeToolStripMenuItem
