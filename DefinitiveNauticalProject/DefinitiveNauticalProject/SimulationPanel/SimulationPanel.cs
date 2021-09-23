@@ -35,7 +35,6 @@ namespace DefinitiveNauticalProject
         /*BUILDER*/
         public SimulationPanel()
         {
-            this.searchStatus = false;
             InitializeComponent();
             DisableActionButtons();
             DisableNavigationButtons();
@@ -256,6 +255,11 @@ namespace DefinitiveNauticalProject
 
         private void WinCondiction()
         {
+            if (this.searchStatus)
+            {
+                return;
+            }
+
             if (this.limit)
             {
                 if (this.wrongAnswerCounter > Constants.Within12ErrorLimit)
@@ -348,6 +352,7 @@ namespace DefinitiveNauticalProject
             this.answerGivenCountuer = 0;
             this.won = false;
             this.loose = false;
+            this.searchStatus = false;
 
             DisableActionButtons();
             DisableNavigationButtons();
@@ -361,6 +366,11 @@ namespace DefinitiveNauticalProject
             DisableLimitButtons();
             DisabelSearch();
             this.startbutton.Enabled = false;
+
+            if (this.searchStatus)
+            {
+                this.searchStatus = false;
+            }
 
             if (this.limit)
             {
@@ -579,9 +589,9 @@ namespace DefinitiveNauticalProject
         {
             if (!searchStatus)
             {
+                this.searchStatus = true;
                 EnableNavigationButtons();
                 this.startbutton.Enabled = false;
-                this.searchStatus = false;
             }
 
             this.totalQuestionsBox.Text = "\u221E";
