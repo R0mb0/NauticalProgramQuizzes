@@ -72,15 +72,17 @@ namespace DefinitiveNauticalProject
             // 
             // FirstPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(695, 324);
             this.Controls.Add(this.editorButton);
             this.Controls.Add(this.quizButton);
             this.Controls.Add(this.simulationButton);
-            this.Icon = global::DefinitiveNauticalProject.Properties.Resources.RomboQuiz;
             this.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Icon = global::DefinitiveNauticalProject.Properties.Resources.RomboQuiz;
             this.Name = "FirstPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quiz Patente Nautica";

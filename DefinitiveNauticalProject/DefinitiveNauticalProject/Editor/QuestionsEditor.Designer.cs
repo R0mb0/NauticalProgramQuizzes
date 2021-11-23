@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuestionsEditor));
             this.EditorQuizLabel = new System.Windows.Forms.Label();
             this.utilityPanel = new System.Windows.Forms.Panel();
             this.deleteImageButton = new System.Windows.Forms.Button();
@@ -350,8 +349,10 @@
             // 
             // QuestionsEditor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 35F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(1658, 918);
             this.Controls.Add(this.saveDatabaseButton);
@@ -368,7 +369,7 @@
             this.Controls.Add(this.answer3TextBox);
             this.Controls.Add(this.pictureBox);
             this.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Icon = Properties.Resources.RomboQuiz;
+            this.Icon = global::DefinitiveNauticalProject.Properties.Resources.RomboQuiz;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "QuestionsEditor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
