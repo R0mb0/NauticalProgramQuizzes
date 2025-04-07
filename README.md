@@ -1,3 +1,6 @@
+> [!WARNING]  
+> Le domande riportate in questo simulatore non sono più valide.
+
 # Programma per esercitarsi sui quiz della patente nautica
 
 Urbino`s University - Applied computer science - Apprenticeship
