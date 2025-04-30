@@ -105,3 +105,9 @@ Nel programma sono presenti tre tipi di database: le domande "Entro 12 miglia", 
 Questi tre database sono salvati localmente nel computer tramite 3 file ".txt" e rispettivamente sono "Within 12 miles" per le domande entro le 12 miglia, "beyond 12 miles" per le domande oltre le 12 miglia e per finire "Test" che contiene delle domande di prova. Se alla occorrenza uno dei due principali database non è presente il programma caricherà una nuova istanza dello stesso, che verrà poi scritta salvata fisicamente dopo aver premuto il pulsante "Salva Database".  
 Se un database non possiede sufficienti domande per avviare una prova di simulazione, al posto del corrispettivo verrà caricato il database di Test, in modo che comunque si possa provare il programma.  
 Qualora il file di test non sia presente il programma lancia un errore e non carica niente.  
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)"srcset="https://github.com/R0mb0/Not_made_by_AI/blob/main/Badge/SVG/NotMadeByAIDark.svg">
+    <source media="(prefers-color-scheme: light)"srcset="https://github.com/R0mb0/Not_made_by_AI/blob/main/Badge/SVG/NotMadeByAILight.svg">
+    <img alt="Not made by AI" src="https://github.com/R0mb0/Not_made_by_AI/blob/main/Badge/SVG/NotMadeByAIDefault.svg">
+  </picture>
