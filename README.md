@@ -106,8 +106,10 @@ Questi tre database sono salvati localmente nel computer tramite 3 file ".txt" e
 Se un database non possiede sufficienti domande per avviare una prova di simulazione, al posto del corrispettivo verrà caricato il database di Test, in modo che comunque si possa provare il programma.  
 Qualora il file di test non sia presente il programma lancia un errore e non carica niente.  
 
+<a href="https://github.com/R0mb0/Not_made_by_AI">
   <picture>
-    <source media="(prefers-color-scheme: dark)"srcset="https://github.com/R0mb0/Not_made_by_AI/blob/main/Badge/SVG/NotMadeByAIDark.svg">
-    <source media="(prefers-color-scheme: light)"srcset="https://github.com/R0mb0/Not_made_by_AI/blob/main/Badge/SVG/NotMadeByAILight.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/R0mb0/Not_made_by_AI/blob/main/Badge/SVG/NotMadeByAIDark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/R0mb0/Not_made_by_AI/blob/main/Badge/SVG/NotMadeByAILight.svg">
     <img alt="Not made by AI" src="https://github.com/R0mb0/Not_made_by_AI/blob/main/Badge/SVG/NotMadeByAIDefault.svg">
   </picture>
+</a>
